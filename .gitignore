@@ -17,6 +17,10 @@
 
 .idea
 /bin/
+.editorconfig
+.env
+.php-cs-fixer.cache
+.symfony.local.yaml
 
 ###> symfony/asset-mapper ###
 /public/assets/
