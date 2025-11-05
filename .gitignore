@@ -14,4 +14,4 @@
 /.php-cs-fixer.cache
 ###< php-cs-fixer/shim ###
 
-/.idea
+.idea
