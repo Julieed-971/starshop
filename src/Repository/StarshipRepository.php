@@ -3,6 +3,7 @@
 namespace App\Repository;
 
 use App\Model\Starship;
+use App\Model\StarshipStatusEnum;
 use Psr\Log\LoggerInterface;
 
 class StarshipRepository
@@ -19,21 +20,21 @@ class StarshipRepository
                 'Rocinante',
                 'Corvette-class',
                 'Jim Holden',
-                'maintenance',
+                StarshipStatusEnum::IN_PROGRESS,
             ),
             new Starship(
                 2,
                 'Behemoth',
                 'Generation',
                 'Camina Drummer',
-                'under refurbishment',
+                StarshipStatusEnum::COMPLETED,
             ),
             new Starship(
                 3,
                 'Donnager',
                 'Donnager-class',
                 'Captain Yao',
-                'repaired',
+                StarshipStatusEnum::WAITING,
             ),
         ];
     }
