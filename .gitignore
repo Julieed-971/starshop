@@ -1,5 +1,6 @@
 
 ###> symfony/framework-bundle ###
+/.env.dev
 /.env.local
 /.env.local.php
 /.env.*.local
@@ -15,3 +16,9 @@
 ###< php-cs-fixer/shim ###
 
 .idea
+/bin/
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+###< symfony/asset-mapper ###
